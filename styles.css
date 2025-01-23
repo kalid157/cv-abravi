@@ -1,0 +1,206 @@
+
+body {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+   background: #F5F5F5;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  position:relative;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cv {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.cv .cv_left {
+  width: 280px;
+  background: #0bb5f4;
+}
+
+.cv .cv_left .cv_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.cv .cv_left .cv_profile img {
+  width: 60%;
+  height: 60%;
+  margin-left:45px;
+  margin-top:50px;
+}
+
+.cv .cv_left .cv_content {
+  padding: 0 25px;
+}
+
+.cv .title :before{
+  margin-bottom: 10px;
+}
+
+.cv .cv_left .bold {
+  color: #fff;
+ 
+}
+
+.cv .cv_left .regular {
+  color: #b1eaff;
+}
+
+.cv .cv_item {
+  padding: 1px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+
+.cv .cv_left .cv_item:last-child,
+.cv .cv_left .cv_item.cv_info,
+.cv .cv_left .cv_item.cv_competence,
+.cv .cv_right .cv_item:last-child {
+  border-bottom: 0px;
+}
+.div1{
+	background:#FFEB3B;
+	width:280px;
+	margin-left:-25px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.div2{
+
+	background:#FFEB3B;
+	width:280px;
+	margin-left:-25px;
+	margin-top:530px;
+	
+}
+
+/* mise en forme de loisir à left */
+.cv .cv_left .cv_social ul li {
+	 background: #0bb5f4;
+	 border-radius: 50%;
+	 border: 1px solid #212121;
+	 font-size: 30px;
+	 margin-right: 15px;
+	 position: relative;
+	 display:inline;
+     color:#FFC107;
+    justify-content: space-between;
+	padding-left :10px;
+	padding-right :10px;
+	padding-top :10px;
+	padding-bottom :10px;
+}
+
+
+.cv .cv_left  .cv_social ul li:last-child:before {
+  display: none;
+}
+
+.cv .cv_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.cv .cv_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* mise en forme d icon adresse */
+.cv .cv_left ul li .icon {
+  color: #FFC107;
+  margin-right: 10px;
+  font-size: 17px;
+position: relative;
+}
+
+.cv .cv_left ul li .data {
+  color: #EFEBE9;
+}
+
+.cv .cv_left ul li .data {
+  color: #EFEBE9;
+}
+
+
+
+.cv .cv_left .cv_competence ul li .competence_name {
+  width: 25%;
+}
+
+
+.cv .cv_left .cv_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.cv .cv_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.cv .cv_right .bold {
+	position: relative;
+  color: #0bb5f4;
+}
+
+.cv .cv_right .cv_profession ul,
+.cv .cv_right .cv_formation ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.cv .cv_right ul li {
+  position: relative;
+ list-style-type:none;
+}
+
+.cv .cv_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.cv .cv_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.cv .cv_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.cv .cv_right .cv_profession ul li:before,
+.cv .cv_right .cv_formation ul :before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+
